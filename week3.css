@@ -92,6 +92,7 @@ body {
 .column {
     width: 33.33%;
     padding: 0 12px;
+    margin-bottom: 80px;
 }
 .column img {
     max-width: 100%;
@@ -120,9 +121,6 @@ body {
 }
 .color2 {
     background-color: #B75929;
-}
-.content {
-    padding-bottom: 80px;   
 }
 .pages {
     justify-content: center;
@@ -260,7 +258,8 @@ body {
         background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true);
     }
     .products {
-        padding: 40px 0;
+        padding-top: 40px;
+        padding-bottom: 64px;
     }
     .title {
         padding-bottom: 24px;
@@ -273,9 +272,11 @@ body {
     }
     .cardlist {
         padding: 0 14px;
+        margin-bottom: 40px;
     }
     .column {
         width: 100%;
+        margin-bottom: 24px;
     }
     .notice {
         flex-wrap: wrap;
