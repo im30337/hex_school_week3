@@ -1,0 +1,328 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 65.45%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.nav-background {
+    background-color: #AA0601;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 11.43px;
+}
+.nav > .logo > img {
+    /* 80px */
+    width: 17%;
+}
+.links > a {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 64px;
+}
+.class > a {
+    display: block;
+    padding: 24px 0;
+    border-left: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    flex : 1;
+}
+.class > a:hover {
+    border-bottom: 8px solid #AA0601;
+}
+.bg-setting {
+    background-size: cover;
+    background-position: center;
+    height: 296px;
+}
+.bg1 {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-3.png?raw=true);
+    flex: 1;
+}
+.bg2 {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-4.png?raw=true);
+    flex: 1;
+}
+.products {
+    padding: 80px 0;
+}
+.title {
+    text-align: center;
+    padding-bottom: 32px;
+}
+.title > h2 {
+    font-size: 42px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: bold;
+}
+.title > h3 {
+    font-size: 32px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: bold;
+}
+.cardlist {
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.column {
+    width: 33.33%;
+    padding: 0 12px;
+}
+.column img {
+    max-width: 100%;
+}
+.spec {
+    justify-content: space-between;
+    align-items: center;
+}
+.spec > h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #000000;
+}
+.spec > p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #AA0601;
+}
+.color-block {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.color1 {
+    background-color: #5F3E2D;
+}
+.color2 {
+    background-color: #B75929;
+}
+.content {
+    padding-bottom: 80px;   
+}
+.pages {
+    justify-content: center;
+    align-items: center;
+}
+.pages a {
+    text-decoration: none;
+    color: #555555;
+}
+.selector {
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 11px 12px;
+    border: 1px solid #555555;
+}
+.page-num {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 11.75px 16px;
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+}
+.page-num:hover {
+    background-color: #000000;
+}
+.page-num:hover > a {
+    color: #FFFFFF;
+}
+.selector:hover {
+    background-color: #F2F2F2;
+}
+.footer-background {
+    background-color: #AA0601;
+}
+.footer {
+    padding-top: 48px;
+}
+.footer-links {
+    justify-content: space-between;
+    align-items: center;
+}
+.left-links a {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 48px;
+}
+.social-media {
+    justify-content: space-between;
+    align-items: center;
+    width: 16.04%;
+}
+.social-media img {
+    display: block;
+    width: 24.7%;
+}
+.mobile-phone {
+    display: none;
+}
+.phone > span  {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 1.5;
+}
+.mail > .mail-icon {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.mail >.mail-address  {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.notice {
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 32px;
+}
+.copyright {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.privacy a {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .nav {
+        flex-wrap: wrap;
+    }
+    .nav > .logo {
+        width: 100%;
+        padding: 12px 0 11.43px 14px;
+    }
+    .links {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .links > a {
+        width: 50%;
+        font-size: 16px;
+        display: block;
+        padding: 12px 0;
+        border: 1px solid #FFFFFF;
+        margin-left: 0;
+        text-align: center;
+    }
+    .class > a {
+        font-size: 16px;
+        padding: 16px 0;
+    }
+    .bg-setting {
+        height: 136px;
+    }
+    .bg1 {
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true);
+    }
+    .bg2 {
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true);
+    }
+    .products {
+        padding: 40px 0;
+    }
+    .title {
+        padding-bottom: 24px;
+    }
+    .title > h2 {
+        font-size: 24px;
+    }
+    .title > h3 {
+        font-size: 24px;
+    }
+    .cardlist {
+        padding: 0 14px;
+    }
+    .column {
+        width: 100%;
+    }
+    .notice {
+        flex-wrap: wrap;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .privacy {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .privacy > a {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .left-links {
+        display: none;
+    }
+    .mobile-phone{
+        display: block;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 1.5;
+        width: 70%;
+    }
+    .social-media {
+        width: 30%;
+        justify-content: space-between;
+    }
+    .social-media img {
+        width: 24%;
+    }
+    .phone {
+        display: none;
+    }
+    .phone-icon {
+        font-size: 24px;
+    }
+    .mail > .mail-icon {
+        font-size: 24px;
+    }
+    .mail >.mail-address  {
+        font-size: 16px;
+    }
+    .notice {
+        padding-top: 14px;
+        padding-bottom: 0;
+    }
+    .footer {
+        padding: 24px 14px;
+    }
+}   
