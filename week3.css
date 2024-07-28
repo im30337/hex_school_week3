@@ -161,6 +161,7 @@ body {
 .footer-links {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 35px;
 }
 .left-links a {
     font-size: 16px;
@@ -218,6 +219,63 @@ body {
     margin-left: 48px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 ;
+    }
+    .nav {
+        padding: 12px 36px;
+    }
+    .logo {
+        width: 18.22%;
+    }
+    .nav > .logo > img {
+        width: 63%;
+    }
+    .class > a {
+        font-size: 24px;
+        padding: 16px 0;
+    }
+    .bg1 {
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true);
+    }
+    .bg2 {
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true);
+    }
+    .products {
+        padding: 80px 0;
+    }
+    .content {
+        margin-bottom: 80px;
+    }
+    .column {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .cardlist {
+        margin: 0;
+        padding: 0 24px;
+    }
+    .footer {
+        padding: 56px 36px 0 36px;
+    }
+    .social-media {
+        width: 22%;
+    }
+    .social-media a {
+        width: 26.5%;
+    }
+    .social-media img {
+        width: 100%;
+    }
+    .mail > .mail-icon {
+        margin-right: 20px;
+    }
+    .phone > .phone-icon {
+        margin-right: 20px;
+    }
+}
 @media (max-width: 576px) {
     .container {
         max-width: 100%;
@@ -229,6 +287,9 @@ body {
     .nav > .logo {
         width: 100%;
         padding: 12px 0 11.43px 14px;
+    }
+    .nav > .logo > img {
+        width: 17%;
     }
     .links {
         display: flex;
@@ -251,12 +312,6 @@ body {
     .bg-setting {
         height: 136px;
     }
-    .bg1 {
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true);
-    }
-    .bg2 {
-        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true);
-    }
     .products {
         padding-top: 40px;
         padding-bottom: 64px;
@@ -270,13 +325,20 @@ body {
     .title > h3 {
         font-size: 24px;
     }
+    .content {
+        margin-bottom: 0;
+    }
     .cardlist {
         padding: 0 14px;
         margin-bottom: 40px;
     }
     .column {
         width: 100%;
+        padding: 0 0;
         margin-bottom: 24px;
+    }
+    .footer-links { 
+        margin-bottom: 0;
     }
     .notice {
         flex-wrap: wrap;
@@ -322,6 +384,7 @@ body {
     }
     .mail > .mail-icon {
         font-size: 24px;
+        margin-right: 0;    
     }
     .mail >.mail-address  {
         font-size: 16px;
