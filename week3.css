@@ -174,11 +174,14 @@ body {
 .social-media {
     justify-content: space-between;
     align-items: center;
-    width: 16.04%;
+    width: 17%;
 }
-.social-media img {
+.social-media a {
     display: block;
     width: 24.7%;
+}
+.social-media img {
+    width: 95%;
 }
 .mobile-phone {
     display: none;
@@ -303,8 +306,12 @@ body {
         width: 30%;
         justify-content: space-between;
     }
+    .social-media a {
+        display: block;
+        width: 50%;
+    }
     .social-media img {
-        width: 24%;
+        width: 71.5%;
     }
     .phone {
         display: none;
